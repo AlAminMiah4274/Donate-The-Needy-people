@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .link-button {
@@ -16,33 +16,35 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    margin-top: 150px;
 }
 
-.bg-image {
-    background-image: url(images/civilian-help.jpg);
-    background-repeat: no-repeat;
+#bg-image {
+    background-image: url(images/bg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
 .banner-text h1 {
-    text-align: center;
-    color: white;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 .banner-text p {
-    text-align: center;
-    color: white;
     font-size: 20px;
     font-weight: 700;
 }
 
+.banner-text {
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
 .heading-item h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -51,18 +53,18 @@ body {
     font-weight: 700;
 }
 
-.flxible-container {
+.flexible-container {
     display: flex;
     margin-left: 50px;
 }
 
 .amount {
-    text-align: center;
-    font-size: 30px;
-    width: 20%;
-    height: 200%;
-    margin: 10px;
-    padding: 5px;
+    font-size: 25px;
+    width: 5%;
+    height: 50px;
+    margin-left: 100px;
+    padding: 30px;
+    box-sizing: content-box;
     border-radius: 5px;
     box-shadow: 10px 10px 50px gray;
 }
@@ -99,7 +101,7 @@ body {
 #food-item {
     margin: 10px;
     height: 300px;
-    width: 50%;
+    width: 45%;
     padding-left: 10px;
     box-shadow: 10px 10px 40px gray;
     background-color: lightgray;
@@ -166,10 +168,10 @@ body {
 
 .email-item {
     text-align: center;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 1px 1px 10px gray;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 50px;
+    padding: 55px;
     background-color: bisque;
 }
 
@@ -184,4 +186,20 @@ body {
     color: white;
     padding: 6px;
     border-radius: 4px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-family: cursive;
+    color: red;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer-item {
+    background-color: black;
+    margin-top: 100px;
 }
